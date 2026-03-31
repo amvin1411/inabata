@@ -1,0 +1,56 @@
+2025/10/24 13:47:45.44 ジョブID:  の実行開始 
+2025/10/24 13:47:45.45 STEP010 開始 
+2025/10/24 13:47:45.45 STEP010 終了 
+2025/10/24 13:47:45.45 STEP020 開始 
+2025/10/24 13:47:45.47 STEP020 終了 
+2025/10/24 13:47:45.48 STEP030 実行開始 
+555  [main] INFO  com.informatica.saas.utilities.plugins.EncryptTextPlugin  - Keystore : key-store.txt
+691  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Welcome to Informatica CLI tool
+694  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Based on your configuration CLI tool will assume you are working in Florence(IICS) mode
+https://dm1-ap.informaticacloud.com/ma/api/v3/InternalLogin
+6252 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - SaaS URL was not set. Using SaaS URL: https://apne1.dm1-ap.informaticacloud.com/saas
+6257 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged IN, IDS-SESSION-ID=3rJYN0I1C0zlx9N1aMavY9
+6260 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged in at Fri Oct 24 13:47:51 JST 2025
+6263 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Fri Oct 24 13:47:51 JST 2025 Running the task: wf_TUG_A140_110
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/tf/wf_TUG_A140_110
+6891 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Submitted run of the task: taskUrl=wf_TUG_A140_110, taskRunId=1166236595752243200
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1166236595752243200
+6986 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Fri Oct 24 13:47:52 JST 2025 Task wf_TUG_A140_110 with run Id 1166236595752243200 found in activity log
+6988 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1166236595752243200
+22138 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Fri Oct 24 13:48:07 JST 2025 Task wf_TUG_A140_110 with run Id 1166236595752243200 found in activity log
+22138 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Success
+22139 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Details: ID: runId: 1166236595752243200 Start Time: 2025-10-24T04:47:52Z End Time: 2025-10-24T04:48:01Z Subtask Count: 1
+22139 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Fri Oct 24 13:48:07 JST 2025 Task null with run Id 1166236595752243200 exited from activity monitor
+https://dm1-ap.informaticacloud.com/ma/api/v3/Logout
+22268 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged OUT, IDS-SESSION-ID=3rJYN0I1C0zlx9N1aMavY9
+22268 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged out at Fri Oct 24 13:48:07 JST 2025
+22268 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Main returning: 0
+2025/10/24 13:48:07.84 STEP030 実行終了 
+2025/10/24 13:48:07.84 STEP040 実行開始 
+2025/10/24 13:48:07.85 STEP040 実行終了 
+2025/10/24 13:48:07.85 STEP050 実行開始 
+509  [main] INFO  com.informatica.saas.utilities.plugins.EncryptTextPlugin  - Keystore : key-store.txt
+636  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Welcome to Informatica CLI tool
+639  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Based on your configuration CLI tool will assume you are working in Florence(IICS) mode
+https://dm1-ap.informaticacloud.com/ma/api/v3/InternalLogin
+6130 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - SaaS URL was not set. Using SaaS URL: https://apne1.dm1-ap.informaticacloud.com/saas
+6130 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged IN, IDS-SESSION-ID=4Os6Rj2yBCFkGSSOEM2yyo
+6133 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged in at Fri Oct 24 13:48:14 JST 2025
+6137 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Fri Oct 24 13:48:14 JST 2025 Running the task: wf_TUG_A140_120
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/tf/wf_TUG_A140_120
+6730 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Submitted run of the task: taskUrl=wf_TUG_A140_120, taskRunId=1166236688857403392
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1166236688857403392
+6804 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Fri Oct 24 13:48:14 JST 2025 Task wf_TUG_A140_120 with run Id 1166236688857403392 found in activity log
+6806 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1166236688857403392
+21941 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Fri Oct 24 13:48:29 JST 2025 Task wf_TUG_A140_120 with run Id 1166236688857403392 found in activity log
+21941 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Success
+21941 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Details: ID: runId: 1166236688857403392 Start Time: 2025-10-24T04:48:15Z End Time: 2025-10-24T04:48:26Z Subtask Count: 1
+21941 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Fri Oct 24 13:48:29 JST 2025 Task null with run Id 1166236688857403392 exited from activity monitor
+https://dm1-ap.informaticacloud.com/ma/api/v3/Logout
+22046 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged OUT, IDS-SESSION-ID=4Os6Rj2yBCFkGSSOEM2yyo
+22046 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged out at Fri Oct 24 13:48:29 JST 2025
+22047 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Main returning: 0
+2025/10/24 13:48:30.00 STEP050 実行終了 
+2025/10/24 13:48:30.00 ジョブID:  正常終了 

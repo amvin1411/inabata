@@ -1,0 +1,42 @@
+2025/10/27 12:15:50.37 ジョブID: TUGA140S020 の実行開始 
+2025/10/27 12:15:50.37 STEP010 開始 
+2025/10/27 12:15:50.37 STEP010 実行終了 
+2025/10/27 12:15:50.38 STEP020 実行開始 
+2025/10/27 12:15:50.39 STEP020 終了 
+2025/10/27 12:15:50.39 STEP030 実行開始 
+616  [main] INFO  com.informatica.saas.utilities.plugins.EncryptTextPlugin  - Keystore : key-store.txt
+785  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Welcome to Informatica CLI tool
+789  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Based on your configuration CLI tool will assume you are working in Florence(IICS) mode
+https://dm1-ap.informaticacloud.com/ma/api/v3/InternalLogin
+6572 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - SaaS URL was not set. Using SaaS URL: https://apne1.dm1-ap.informaticacloud.com/saas
+6576 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged IN, IDS-SESSION-ID=2eJ46bEHU4LjiceyBgQgoc
+6580 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged in at Mon Oct 27 12:15:57 JST 2025
+6581 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Mon Oct 27 12:15:57 JST 2025 Running the task: wf_TUG_A140_130
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/tf/wf_TUG_A140_130
+7277 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Submitted run of the task: taskUrl=wf_TUG_A140_130, taskRunId=1167300628588765184
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1167300628588765184
+7352 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Mon Oct 27 12:15:57 JST 2025 Task wf_TUG_A140_130 with run Id 1167300628588765184 found in activity log
+7353 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1167300628588765184
+22524 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Mon Oct 27 12:16:13 JST 2025 Task wf_TUG_A140_130 with run Id 1167300628588765184 found in activity log
+22524 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1167300628588765184
+37653 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Mon Oct 27 12:16:28 JST 2025 Task wf_TUG_A140_130 with run Id 1167300628588765184 found in activity log
+37653 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1167300628588765184
+52752 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Mon Oct 27 12:16:43 JST 2025 Task wf_TUG_A140_130 with run Id 1167300628588765184 found in activity log
+52753 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1167300628588765184
+67875 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Mon Oct 27 12:16:58 JST 2025 Task wf_TUG_A140_130 with run Id 1167300628588765184 found in activity log
+67875 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1167300628588765184
+82975 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Mon Oct 27 12:17:13 JST 2025 Task wf_TUG_A140_130 with run Id 1167300628588765184 found in activity log
+82976 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Failure
+82976 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Details: ID: runId: 1167300628588765184 Start Time: 2025-10-27T03:15:58Z End Time: 2025-10-27T03:17:12Z Subtask Count: 1 Error/Warning Message: {"reason":"RR_4035 SQLエラー[\nFnName: Execute -- [Informatica][ODBC Oracle Wire Protocol driver][Oracle]ORA-30006: リソース・ビジー; WAITタイムアウトの期限に達しました。\n]。","code":"error","details":"010PIXC1000000001SHZs_m_TUG_支払_支払明細_データ編集_010010PIX0Z00000000019611s_m_TUG_支払_支払明細_データ編集_010010PIX0Z00000000019611010PIXC1000000001SHZ360002025-10-27T03:16:00.000Z2025-10-27T03:17:10.000ZRR_4035 SQLエラー[\nFnName: Execute -- [Informatica][ODBC Oracle Wire Protocol driver][Oracle]ORA-30006: リソース・ビジー; WAITタイムアウトの期限に達しました。\n]。14035"}
+82976 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Mon Oct 27 12:17:13 JST 2025 Task null with run Id 1167300628588765184 exited from activity monitor
+https://dm1-ap.informaticacloud.com/ma/api/v3/Logout
+83101 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged OUT, IDS-SESSION-ID=2eJ46bEHU4LjiceyBgQgoc
+83101 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged out at Mon Oct 27 12:17:13 JST 2025
+83102 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Main returning: 3
+2025/10/27 12:17:13.62 STEP030 実行エラー PRC= 3 
+2025/10/27 12:17:13.62 ジョブID: TUGA140S020 の異常終了 
