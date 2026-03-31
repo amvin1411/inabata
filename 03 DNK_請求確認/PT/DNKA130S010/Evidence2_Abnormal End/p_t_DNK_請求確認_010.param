@@ -1,0 +1,7 @@
+#USE_SECTIONS
+[Global]
+$PMSessionLogFile=DNKA130S010_sessionlog_20250723200209.log
+$PMSessionName_error=DNKA130S010_sessionErrorLog_20250723200209.log
+$OutputFile_MAP_FILE=DNKA130S01001
+$DBConnectionDIKe=EDI_oracle_DIKe_01
+$$m_DATA_KOKAN_ID=001126

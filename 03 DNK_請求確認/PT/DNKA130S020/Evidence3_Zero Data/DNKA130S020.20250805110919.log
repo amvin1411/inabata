@@ -1,0 +1,43 @@
+2025/08/05 11:09:19.33 ジョブID: DNKA130S020 の実行開始 
+2025/08/05 11:09:19.33 STEP010 開始 
+2025/08/05 11:09:19.34 STEP010 実行終了 
+2025/08/05 11:09:19.34 STEP020 実行開始 
+2025/08/05 11:09:19.36 STEP020 終了 
+2025/08/05 11:09:19.36 STEP021 実行開始 
+2025/08/05 11:09:19.37 STEP021 終了 
+2025/08/05 11:09:19.37 STEP030 実行開始 
+580  [main] INFO  com.informatica.saas.utilities.plugins.EncryptTextPlugin  - Keystore : key-store.txt
+758  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Welcome to Informatica CLI tool
+763  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Based on your configuration CLI tool will assume you are working in Florence(IICS) mode
+https://dm1-ap.informaticacloud.com/ma/api/v3/InternalLogin
+6381 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - SaaS URL was not set. Using SaaS URL: https://apne1.dm1-ap.informaticacloud.com/saas
+6381 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged IN, IDS-SESSION-ID=ddrPctEAiMceVhrggP0o6F
+6384 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged in at Tue Aug 05 11:09:25 JST 2025
+6386 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Tue Aug 05 11:09:25 JST 2025 Running the task: wf_DNK_A130_130
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/tf/wf_DNK_A130_130
+7132 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Submitted run of the task: taskUrl=wf_DNK_A130_130, taskRunId=1137205695374917632
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137205695374917632
+7209 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Tue Aug 05 11:09:26 JST 2025 Task wf_DNK_A130_130 with run Id 1137205695374917632 found in activity log
+7211 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137205695374917632
+22318 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Tue Aug 05 11:09:41 JST 2025 Task wf_DNK_A130_130 with run Id 1137205695374917632 found in activity log
+22318 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137205695374917632
+37438 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Tue Aug 05 11:09:56 JST 2025 Task wf_DNK_A130_130 with run Id 1137205695374917632 found in activity log
+37438 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137205695374917632
+52550 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Tue Aug 05 11:10:12 JST 2025 Task wf_DNK_A130_130 with run Id 1137205695374917632 found in activity log
+52550 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137205695374917632
+67648 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Tue Aug 05 11:10:27 JST 2025 Task wf_DNK_A130_130 with run Id 1137205695374917632 found in activity log
+67648 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Success
+67648 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Details: ID: runId: 1137205695374917632 Start Time: 2025-08-05T02:09:27Z End Time: 2025-08-05T02:10:19Z Subtask Count: 1
+67648 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Tue Aug 05 11:10:27 JST 2025 Task null with run Id 1137205695374917632 exited from activity monitor
+https://dm1-ap.informaticacloud.com/ma/api/v3/Logout
+67798 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged OUT, IDS-SESSION-ID=ddrPctEAiMceVhrggP0o6F
+67798 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged out at Tue Aug 05 11:10:27 JST 2025
+67799 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Main returning: 0
+2025/08/05 11:10:27.29 STEP030 実行終了 
+2025/08/05 11:10:27.30 STEP040 実行開始 
+2025/08/05 11:10:27.30 STEP040 実行終了 
+2025/08/05 11:10:27.31 ジョブID: DNKA130S020 の正常終了 

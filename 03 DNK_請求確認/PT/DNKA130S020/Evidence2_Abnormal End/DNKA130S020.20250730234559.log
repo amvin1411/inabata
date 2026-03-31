@@ -1,0 +1,33 @@
+2025/07/30 23:45:59.48 ジョブID: DNKA130S020 の実行開始 
+2025/07/30 23:45:59.48 STEP010 開始 
+2025/07/30 23:45:59.48 STEP010 実行終了 
+2025/07/30 23:45:59.49 STEP020 実行開始 
+2025/07/30 23:45:59.50 STEP020 終了 
+2025/07/30 23:45:59.50 STEP030 実行開始 
+571  [main] INFO  com.informatica.saas.utilities.plugins.EncryptTextPlugin  - Keystore : key-store.txt
+742  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Welcome to Informatica CLI tool
+747  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Based on your configuration CLI tool will assume you are working in Florence(IICS) mode
+https://dm1-ap.informaticacloud.com/ma/api/v3/InternalLogin
+6309 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - SaaS URL was not set. Using SaaS URL: https://apne1.dm1-ap.informaticacloud.com/saas
+6313 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged IN, IDS-SESSION-ID=5Heo0zZ64QhhJl2hdE7Z6R
+6315 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged in at Wed Jul 30 23:46:05 JST 2025
+6317 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Wed Jul 30 23:46:05 JST 2025 Running the task: wf_DNK_A130_130
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/tf/wf_DNK_A130_130
+6945 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Submitted run of the task: taskUrl=wf_DNK_A130_130, taskRunId=1135221789775847424
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1135221789775847424
+7022 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Wed Jul 30 23:46:06 JST 2025 Task wf_DNK_A130_130 with run Id 1135221789775847424 found in activity log
+7023 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1135221789775847424
+22114 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Wed Jul 30 23:46:21 JST 2025 Task wf_DNK_A130_130 with run Id 1135221789775847424 found in activity log
+22115 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1135221789775847424
+37219 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Wed Jul 30 23:46:36 JST 2025 Task wf_DNK_A130_130 with run Id 1135221789775847424 found in activity log
+37219 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Failure
+37219 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Details: ID: runId: 1135221789775847424 Start Time: 2025-07-30T14:46:06Z End Time: 2025-07-30T14:46:23Z Subtask Count: 1 Error/Warning Message: {"reason":"FR_3000 ファイル[d:\\DEV_DIKe\\temp\\DNKA130S02001]を開いているときにエラーが発生しました。オペレーティングシステムのエラーメッセージは[指定されたファイルが見つかりません。]です。","code":"error","details":"010PIXC1000000001G5Ys_m_DNK_請求確認_データ編集_010010PIX0Z00000000013217s_m_DNK_請求確認_データ編集_010010PIX0Z00000000013217010PIXC1000000001G5Y300002025-07-30T14:46:08.000Z2025-07-30T14:46:21.000ZFR_3000 ファイル[d:\\DEV_DIKe\\temp\\DNKA130S02001]を開いているときにエラーが発生しました。オペレーティングシステムのエラーメッセージは[指定されたファイルが見つかりません。]です。03000"}
+37220 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Wed Jul 30 23:46:36 JST 2025 Task null with run Id 1135221789775847424 exited from activity monitor
+https://dm1-ap.informaticacloud.com/ma/api/v3/Logout
+37359 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged OUT, IDS-SESSION-ID=5Heo0zZ64QhhJl2hdE7Z6R
+37359 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged out at Wed Jul 30 23:46:36 JST 2025
+37359 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Main returning: 3
+2025/07/30 23:46:37.00 STEP030 実行エラー PRC= 3 
+2025/07/30 23:46:37.01 ジョブID: DNKA130S020 の異常終了 

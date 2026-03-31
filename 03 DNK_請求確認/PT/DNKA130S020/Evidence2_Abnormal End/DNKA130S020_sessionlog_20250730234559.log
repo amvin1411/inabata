@@ -1,0 +1,138 @@
+PETL_24036 [2025-07-30 23:46:11.466] セッションの準備段階を開始します。
+TM_6721 [2025-07-30 23:46:11.467] [リポジトリへの接続]を開始しました。
+TM_6722 [2025-07-30 23:46:11.629] [リポジトリへの接続]を完了しました。所要時間は[0.162]秒でした。
+TM_6721 [2025-07-30 23:46:11.629] [リポジトリからセッションを取り出します]を開始しました。
+TM_6722 [2025-07-30 23:46:18.270] [リポジトリからセッションを取り出します]を完了しました。所要時間は[6.64104]秒でした。
+VAR_27085 [2025-07-30 23:46:18.274] パラメータファイル[C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_010PIX0Z000000000132.param]が[セッション[wf_mtt_010PIX0Z000000000132.s_mtt_010PIX0Z000000000132]]に対して開かれました。
+VAR_27062 [2025-07-30 23:46:18.277] 警告! worklet [wf_mtt_010PIX0Z000000000132]とフォルダ[]のセクションをパラメータファイル[C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_010PIX0Z000000000132.param]で見つけることができません。
+TM_6721 [2025-07-30 23:46:18.474] [パーティショングループフォーメーション]を開始しました。
+TM_6722 [2025-07-30 23:46:18.476] [パーティショングループフォーメーション]を完了しました。所要時間は[0.00199986]秒でした。
+PETL_24037 [2025-07-30 23:46:18.476] セッションの準備段階を完了しました。
+DIRECTOR> TM_6228 [2025-07-30 23:46:18.476] セッションログを[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\..\logs\DNKA130S020_sessionlog_20250730234559.log]に出力しています。
+DIRECTOR> VAR_27085 [2025-07-30 23:46:18.488] パラメータファイル[C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_010PIX0Z000000000132.param]が[セッション[wf_mtt_010PIX0Z000000000132.s_mtt_010PIX0Z000000000132]]に対して開かれました。
+DIRECTOR> VAR_27062 [2025-07-30 23:46:18.491] 警告! worklet [wf_mtt_010PIX0Z000000000132]とフォルダ[]のセクションをパラメータファイル[C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_010PIX0Z000000000132.param]で見つけることができません。
+DIRECTOR> PETL_24093 [2025-07-30 23:46:18.493] User defined Parameter File Location [\\\j2sde081\d$\DEV_DIKe\temp\wfparm\/p_t_DNK_請求確認_030.param].
+DIRECTOR> TM_6014 [2025-07-30 23:46:18.493] セッション[s_mtt_010PIX0Z000000000132]を初期化しています: [Wed Jul 30 23:46:18 2025]。
+DIRECTOR> TM_6683 [2025-07-30 23:46:18.493] リポジトリ名: [XMLRepository]
+DIRECTOR> TM_6684 [2025-07-30 23:46:18.493] サーバー名: [rDTM]
+DIRECTOR> TM_6686 [2025-07-30 23:46:18.493] フォルダ: []
+DIRECTOR> TM_6685 [2025-07-30 23:46:18.493] ワークフロー: [wf_mtt_010PIX0Z000000000132] 実行インスタンス名: [] 実行ID: [0]
+DIRECTOR> TM_6992 [2025-07-30 23:46:18.493] オペレーションシステムタイプ[NT]
+DIRECTOR> TM_6101 [2025-07-30 23:46:18.493] マッピング名: Mapping0。
+DIRECTOR> TM_6964 [2025-07-30 23:46:18.494] セッションの日付形式は[MM/DD/YYYY HH24:MI:SS.US]です。
+DIRECTOR> TM_6703 [2025-07-30 23:46:18.496] セッション[s_mtt_010PIX0Z000000000132]は64-bit 統合サービス [] (バージョン[10.2.0 HotFix2]、ビルド[0321])で動作しています。
+MANAGER> PETL_24091 [2025-07-30 23:46:19.594] スレッド[MANAGER]のIDは[1]です。
+MANAGER> PETL_24058 [2025-07-30 23:46:19.594] パーティショングループ[1]を実行中です。
+MANAGER> PETL_24000 [2025-07-30 23:46:19.594] Parallel Pipeline Engine 初期化中｡
+MONITOR> PETL_24091 [2025-07-30 23:46:19.596] スレッド[MONITOR]のIDは[2]です。
+MANAGER> PETL_24001 [2025-07-30 23:46:19.596] Parallel Pipeline Engine 実行中｡
+MANAGER> PETL_24003 [2025-07-30 23:46:19.596] セッション実行の初期化｡
+MAPPING> PETL_24091 [2025-07-30 23:46:19.599] スレッド[MAPPING]のIDは[3]です。
+MAPPING> CMN_1569 [2025-07-30 23:46:19.603] Serverモード: [UNICODE]
+MAPPING> CMN_1570 [2025-07-30 23:46:19.603] Serverコードページ: [UTF-8 encoding of Unicode]
+MAPPING> TM_6151 [2025-07-30 23:46:19.603] セッションソート順は[Binary]です。
+MAPPING> TM_6185 [2025-07-30 23:46:19.603] 警告。このセッションでは、コードページ検査機能が無効になっています。
+MAPPING> CMN_65109 [2025-07-30 23:46:19.603] 現在のタイムゾーン:[UTC +9:0]
+MAPPING> CMN_65111 [2025-07-30 23:46:19.603] 現在のプロセスID:[9164]
+MAPPING> TM_6155 [2025-07-30 23:46:19.603] 高精度処理を使用しています。
+MAPPING> TM_6180 [2025-07-30 23:46:19.603] デッドロック用再実行ロジックが実装されません。
+MAPPING> TM_6181 [2025-07-30 23:46:19.603] セッションのソースベースコミット間隔は[2147483647]です。
+MAPPING> VAR_27084 [2025-07-30 23:46:19.604] 警告: 変数またはパラメータ[$PMSessionName_error]の値を[$PMSessionName_error]の展開中に見つけることができません。一致する最も長い変数またはパラメータの値[$PMSessionName]を使用しています。
+MAPPING> TM_6308 [2025-07-30 23:46:19.604] DTMエラーログはUTF-8コードページを使用しています｡
+MAPPING> TM_6310 [2025-07-30 23:46:19.604] DTMエラーログはファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\error\s_mtt_010PIX0Z000000000132_error]で有効になっています｡
+MAPPING> TM_6682 [2025-07-30 23:46:19.604] 警告: DTMエラーログが有効なので、行レベルのエラーはセッションログには書き込みません｡行レベルのエラーのDTMエラーログを確認ください。
+MAPPING> CCM_9007 [2025-07-30 23:46:19.607] The DTM Error Log File Delimiter being used is [,].
+MAPPING> TM_6701 [2025-07-30 23:46:19.607] 警告: DTMエラーログのデータ列の区切り文字とフラットファイルの区切り文字が同じ[',']です｡
+MAPPING> TE_7022 [2025-07-30 23:46:19.674] TShmWriter: 初期化済み
+MAPPING> DBG_21491 [2025-07-30 23:46:19.685] ソース修飾子 [SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21492 [2025-07-30 23:46:19.692] トランスフォーメーション[agg_送信対象データ件数]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21694 [2025-07-30 23:46:19.694] agg_送信対象データ件数パーティション[0]: インデックスキャッシュサイズ= [1000000]、データキャッシュサイズ= [2000000]
+MAPPING> TE_7212 [2025-07-30 23:46:19.694] [インデックスキャッシュ]サイズ(トランスフォーメーション[agg_送信対象データ件数])を[1000000]から[1049760]に増やします。
+MAPPING> TE_7212 [2025-07-30 23:46:19.694] [データキャッシュ]サイズ(トランスフォーメーション[agg_送信対象データ件数])を[2000000]から[2097368]に増やします。
+MAPPING> TE_7029 [2025-07-30 23:46:19.694] 集計情報: 新しいインデックスファイルとデータファイルを作成しています
+MAPPING> TE_7034 [2025-07-30 23:46:19.695] 集計情報: インデックスファイルは[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMAGG1610349591_12_0_9164.idx]です
+MAPPING> TE_7035 [2025-07-30 23:46:19.695] 集計情報: データファイルは[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMAGG1610349591_12_0_9164.dat]です
+MAPPING> DBG_21492 [2025-07-30 23:46:19.699] トランスフォーメーション[jnr_件数データ結合]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21492 [2025-07-30 23:46:19.701] トランスフォーメーション[jnr_件数データ結合]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21491 [2025-07-30 23:46:19.703] ソース修飾子 [mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21492 [2025-07-30 23:46:19.704] トランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21694 [2025-07-30 23:46:19.704] mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合パーティション[0]: インデックスキャッシュサイズ= [89478485]、データキャッシュサイズ= [178956970]
+MAPPING> TT_11098 [2025-07-30 23:46:19.704] ジョイナトランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]は、結合アルゴリズムで次のように設定されています: Nested-Loop。
+MAPPING> DBG_21492 [2025-07-30 23:46:19.722] トランスフォーメーション[jnr_件数データ結合]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21694 [2025-07-30 23:46:19.723] jnr_件数データ結合パーティション[0]: インデックスキャッシュサイズ= [89478485]、データキャッシュサイズ= [178956970]
+MAPPING> TT_11098 [2025-07-30 23:46:19.723] ジョイナトランスフォーメーション[jnr_件数データ結合]は、結合アルゴリズムで次のように設定されています: Sorted-Merge。
+MAPPING> DBG_21077 [2025-07-30 23:46:19.723] マスタ関係にJoinerキャッシュを作成 : (Wed Jul 30 23:46:19 2025)
+MAPPING> CMN_1690 [2025-07-30 23:46:19.744] 新しいデータファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNR1610349591_15_0_9164.dat]とインデックスファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNR1610349591_15_0_9164.idx]をジョイナ [jnr_件数データ結合]用に作成しました。
+MAPPING> DBG_21691 [2025-07-30 23:46:19.744] 明細関係にジョイナキャッシュを作成 : (Wed Jul 30 23:46:19 2025)
+MAPPING> CMN_1690 [2025-07-30 23:46:19.764] 新しいデータファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNRD1610349591_15_0_9164.dat]とインデックスファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNRD1610349591_15_0_9164.idx]をジョイナ [jnr_件数データ結合]用に作成しました。
+MAPPING> DBG_21492 [2025-07-30 23:46:19.796] トランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21244 [2025-07-30 23:46:19.802] ロード順グループ[1]を初期化しています。ソース修飾子は[SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU]です
+MAPPING> DBG_21244 [2025-07-30 23:46:19.802] ロード順グループ[1]を初期化しています。ソース修飾子は[mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK]です
+MAPPING> PMJVM_42020 [2025-07-30 23:46:19.815] [INFO] 次のライブラリをロードしました: C:\PROGRA~1\INFORM~1\apps\jdk\zulu8.82.0.22-sa-fx-jdk8.0.432\jre\bin\server\jvm.dll。
+MAPPING> PMJVM_42009 [2025-07-30 23:46:19.883] [INFO] Java VM の作成が成功しました。
+MAPPING> TM_6007 [2025-07-30 23:46:20.048] DTMはセッション[s_mtt_010PIX0Z000000000132]に対して正常に初期化されました
+DIRECTOR> PETL_24033 [2025-07-30 23:46:20.048] すべてのDTM接続情報: [<NONE>]。
+MANAGER> PETL_24004 [2025-07-30 23:46:20.048] プリセッションタスクの開始｡ : (Wed Jul 30 23:46:20 2025)
+PRE-SESS> PETL_24091 [2025-07-30 23:46:20.050] スレッド[PRE-SESS]のIDは[4]です。
+MANAGER> PETL_24027 [2025-07-30 23:46:20.117] セッション実行前のタスクは正常に終了しました。 : (Wed Jul 30 23:46:20 2025)
+DIRECTOR> PETL_24006 [2025-07-30 23:46:20.117] データ移動の開始｡
+MAPPING> TM_6966 [2025-07-30 23:46:20.117] 高いパフォーマンスに必要なバッファプールメモリ容量の概算値を抑えています。
+MAPPING> TM_6660 [2025-07-30 23:46:20.117] バッファプールサイズの総計は67486320バイト、ブロックサイズは2245544バイトです。
+READER_1_1_1> PETL_24091 [2025-07-30 23:46:20.126] スレッド[READER_1_1_1]のIDは[5]です。
+READER_1_1_1> DBG_21437 [2025-07-30 23:46:20.128] リーダー: ソースはファイルベースのソースです｡
+READER_1_1_1> FR_3118 [2025-07-30 23:46:20.129] ソース[SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU]コードページ: [MS Windows Japanese, superset of Shift-JIS]
+READER_1_1_1> FR_3071 [2025-07-30 23:46:20.134] 最大行順序ありバッファ長は4419です。
+READER_1_1_1> CMN_1761 [2025-07-30 23:46:20.134] タイムスタンプイベント: [Wed Jul 30 23:46:20 2025]
+READER_1_1_1> FR_3000 [2025-07-30 23:46:20.134] ファイル[d:\DEV_DIKe\temp\DNKA130S02001]を開いているときにエラーが発生しました。オペレーティングシステムのエラーメッセージは[指定されたファイルが見つかりません。]です。
+READER_1_1_1> CMN_1761 [2025-07-30 23:46:20.134] タイムスタンプイベント: [Wed Jul 30 23:46:20 2025]
+READER_1_1_1> BLKR_16002 [2025-07-30 23:46:20.134] エラー: 初期化が失敗しました｡
+READER_1_1_1> CMN_1761 [2025-07-30 23:46:20.134] タイムスタンプイベント: [Wed Jul 30 23:46:20 2025]
+READER_1_1_1> DBG_21702 [2025-07-30 23:46:20.134] Error occurred while running the Session. Error Code [1], Cumulative Error Code [1], Stage[0].
+MANAGER> PETL_24031 [2025-07-30 23:46:20.134] 
+***** TGT LOAD ORDER GROUP [1], CONCURRENT SET [1]の実行情報*****
+スレッド[READER_1_1_1]は[読み込みステージ] (パーティションポイント[SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU])用に作成されたスレッドです。このスレッドが完了しました。合計実行時間は統計上意味を持つほど長くありませんでした。
+
+MAPPING> CMN_1791 [2025-07-30 23:46:20.196] メモリ内で[0]集計グループ([agg_送信対象データ件数]の入力行)を保持するインデックスキャッシュサイズは[0]バイトです
+MAPPING> CMN_1790 [2025-07-30 23:46:20.196] メモリ内で[0]集計グループ([agg_送信対象データ件数]の入力行)を保持するデータキャッシュサイズは[0]バイトです
+MANAGER> CMN_1761 [2025-07-30 23:46:20.196] タイムスタンプイベント: [Wed Jul 30 23:46:20 2025]
+MANAGER> DBG_21702 [2025-07-30 23:46:20.196] Error occurred while running the Session. Error Code [256], Cumulative Error Code [257], Stage[12].
+MANAGER> CMN_1761 [2025-07-30 23:46:20.197] タイムスタンプイベント: [Wed Jul 30 23:46:20 2025]
+MANAGER> DBG_21702 [2025-07-30 23:46:20.197] Error occurred while running the Session. Error Code [256], Cumulative Error Code [257], Stage[13].
+MANAGER> PETL_24005 [2025-07-30 23:46:20.197] ポストセッションタスクの開始｡ : (Wed Jul 30 23:46:20 2025)
+POST-SESS> PETL_24091 [2025-07-30 23:46:20.199] スレッド[POST-SESS]のIDは[6]です。
+MANAGER> PETL_24029 [2025-07-30 23:46:20.261] セッション実行後のタスクは正常に終了しました。 : (Wed Jul 30 23:46:20 2025)
+MANAGER> CMN_1761 [2025-07-30 23:46:20.261] タイムスタンプイベント: [Wed Jul 30 23:46:20 2025]
+MANAGER> DBG_21702 [2025-07-30 23:46:20.261] Error occurred while running the Session. Error Code [32], Cumulative Error Code [289], Stage[7].
+MAPPING> TM_6315 [2025-07-30 23:46:20.261] DTMエラーログ: ファイルログ[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\error\s_mtt_010PIX0Z000000000132_error]、行挿入[0]｡
+MAPPING> TM_6018 [2025-07-30 23:46:20.262] セッションが[0]の行トランスフォーメーションエラーで完了しました。
+MANAGER> TE_7216 [2025-07-30 23:46:20.326] キャッシュファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMAGG1610349591_12_0_9164.idx] (トランスフォーメーション[agg_送信対象データ件数]用)を削除しています。
+MANAGER> TE_7216 [2025-07-30 23:46:20.327] キャッシュファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMAGG1610349591_12_0_9164.dat] (トランスフォーメーション[agg_送信対象データ件数]用)を削除しています。
+MANAGER> TE_7216 [2025-07-30 23:46:20.338] キャッシュファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNR1610349591_52_0_9164.dat] (トランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]用)を削除しています。
+MANAGER> TE_7216 [2025-07-30 23:46:20.338] キャッシュファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNR1610349591_52_0_9164.idx] (トランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]用)を削除しています。
+MANAGER> PETL_24002 [2025-07-30 23:46:20.659] Parallel Pipeline Engine 終了｡
+MANAGER> CMN_1761 [2025-07-30 23:46:20.659] タイムスタンプイベント: [Wed Jul 30 23:46:20 2025]
+MANAGER> DBG_21702 [2025-07-30 23:46:20.659] Error occurred while running the Session. Error Code [256], Cumulative Error Code [289], Stage[15].
+DIRECTOR> PETL_24013 [2025-07-30 23:46:20.721] セッションの実行で障害が発生しました｡
+DIRECTOR> TM_6022 [2025-07-30 23:46:20.721] 
+
+セッションロード要約
+================================================
+
+DIRECTOR> TM_6252 [2025-07-30 23:46:20.721] ソースのロード要約
+DIRECTOR> CMN_1740 [2025-07-30 23:46:20.721] テーブル: [SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU] (インスタンス名: [SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU]、インスタンスUI名: [SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> CMN_1740 [2025-07-30 23:46:20.721] テーブル: [mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK] (インスタンス名: [mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK]、インスタンスUI名: [mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> TM_6253 [2025-07-30 23:46:20.721] ターゲットのロード要約
+DIRECTOR> CMN_1740 [2025-07-30 23:46:20.721] テーブル: [DNKA1301_7573db7c8e62f53c95cceac5b56cc18ad095e6ef] (インスタンス名: [DNKA1301_1]、インスタンスUI名: [f_J_EDI_SND_SK_KAKUNIN])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> CMN_1740 [2025-07-30 23:46:20.721] テーブル: [DNKA1301_7573db7c8e62f53c95cceac5b56cc18ad095e6ef] (インスタンス名: [DNKA1301]、インスタンスUI名: [f_J_EDI_SND_SK_KAKUNIN_0件の場合])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> CMN_1740 [2025-07-30 23:46:20.721] テーブル: [J_EDI_SND_DB_SEIKYU_CHK] (インスタンス名: [J_EDI_SND_DB_SEIKYU_CHK]、インスタンスUI名: [mplt_CMN_EDI送信DB_請求確認更新２_J_EDI_SND_DB_SEIKYU_CHK])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> CMN_1740 [2025-07-30 23:46:20.721] テーブル: [J_EDI_RCV_DB_SUP] (インスタンス名: [J_EDI_RCV_DB_SUP]、インスタンスUI名: [mplt_CMN_EDI送信DB_請求確認更新２_J_EDI_RCV_DB_SUP])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> TM_6023 [2025-07-30 23:46:20.721] 
+===================================================
+
+DIRECTOR> TM_6020 [2025-07-30 23:46:20.721] セッション[s_mtt_010PIX0Z000000000132]が[Wed Jul 30 23:46:20 2025]で完了しました。
