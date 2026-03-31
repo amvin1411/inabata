@@ -1,0 +1,275 @@
+PETL_24036 [2025-06-16 15:59:50.581] セッションの準備段階を開始します。
+TM_6721 [2025-06-16 15:59:50.581] [リポジトリへの接続]を開始しました。
+TM_6722 [2025-06-16 15:59:50.902] [リポジトリへの接続]を完了しました。所要時間は[0.321003]秒でした。
+TM_6721 [2025-06-16 15:59:50.902] [リポジトリからセッションを取り出します]を開始しました。
+TM_6722 [2025-06-16 15:59:55.902] [リポジトリからセッションを取り出します]を完了しました。所要時間は[5.00003]秒でした。
+VAR_27085 [2025-06-16 15:59:55.905] パラメータファイル[C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_010PIX0Z0000000000UL.param]が[セッション[wf_mtt_010PIX0Z0000000000UL.s_mtt_010PIX0Z0000000000UL]]に対して開かれました。
+VAR_27062 [2025-06-16 15:59:55.908] 警告! worklet [wf_mtt_010PIX0Z0000000000UL]とフォルダ[]のセクションをパラメータファイル[C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_010PIX0Z0000000000UL.param]で見つけることができません。
+TM_6721 [2025-06-16 15:59:56.098] [パーティショングループフォーメーション]を開始しました。
+TM_6722 [2025-06-16 15:59:56.099] [パーティショングループフォーメーション]を完了しました。所要時間は[0.00100112]秒でした。
+PETL_24037 [2025-06-16 15:59:56.099] セッションの準備段階を完了しました。
+DIRECTOR> TM_6228 [2025-06-16 15:59:56.100] セッションログを[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\..\logs\NSBA130S020_sessionlog_20250616155939.log]に出力しています。
+DIRECTOR> VAR_27085 [2025-06-16 15:59:56.108] パラメータファイル[C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_010PIX0Z0000000000UL.param]が[セッション[wf_mtt_010PIX0Z0000000000UL.s_mtt_010PIX0Z0000000000UL]]に対して開かれました。
+DIRECTOR> VAR_27062 [2025-06-16 15:59:56.111] 警告! worklet [wf_mtt_010PIX0Z0000000000UL]とフォルダ[]のセクションをパラメータファイル[C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_010PIX0Z0000000000UL.param]で見つけることができません。
+DIRECTOR> PETL_24093 [2025-06-16 15:59:56.112] User defined Parameter File Location [\\\J2SDE081\DEV\temp\wfparm\/p_t_NSB_請求確認_030.param].
+DIRECTOR> TM_6014 [2025-06-16 15:59:56.113] セッション[s_mtt_010PIX0Z0000000000UL]を初期化しています: [Mon Jun 16 15:59:56 2025]。
+DIRECTOR> TM_6683 [2025-06-16 15:59:56.113] リポジトリ名: [XMLRepository]
+DIRECTOR> TM_6684 [2025-06-16 15:59:56.113] サーバー名: [rDTM]
+DIRECTOR> TM_6686 [2025-06-16 15:59:56.113] フォルダ: []
+DIRECTOR> TM_6685 [2025-06-16 15:59:56.113] ワークフロー: [wf_mtt_010PIX0Z0000000000UL] 実行インスタンス名: [] 実行ID: [0]
+DIRECTOR> TM_6992 [2025-06-16 15:59:56.113] オペレーションシステムタイプ[NT]
+DIRECTOR> TM_6101 [2025-06-16 15:59:56.113] マッピング名: Mapping0。
+DIRECTOR> TM_6964 [2025-06-16 15:59:56.113] セッションの日付形式は[MM/DD/YYYY HH24:MI:SS.US]です。
+DIRECTOR> TM_6703 [2025-06-16 15:59:56.115] セッション[s_mtt_010PIX0Z0000000000UL]は64-bit 統合サービス [] (バージョン[10.2.0 HotFix2]、ビルド[0321])で動作しています。
+MANAGER> PETL_24091 [2025-06-16 15:59:57.140] スレッド[MANAGER]のIDは[1]です。
+MANAGER> PETL_24058 [2025-06-16 15:59:57.140] パーティショングループ[1]を実行中です。
+MANAGER> PETL_24000 [2025-06-16 15:59:57.140] Parallel Pipeline Engine 初期化中｡
+MONITOR> PETL_24091 [2025-06-16 15:59:57.141] スレッド[MONITOR]のIDは[2]です。
+MANAGER> PETL_24001 [2025-06-16 15:59:57.141] Parallel Pipeline Engine 実行中｡
+MANAGER> PETL_24003 [2025-06-16 15:59:57.141] セッション実行の初期化｡
+MAPPING> PETL_24091 [2025-06-16 15:59:57.144] スレッド[MAPPING]のIDは[3]です。
+MAPPING> CMN_1569 [2025-06-16 15:59:57.147] Serverモード: [UNICODE]
+MAPPING> CMN_1570 [2025-06-16 15:59:57.147] Serverコードページ: [UTF-8 encoding of Unicode]
+MAPPING> TM_6151 [2025-06-16 15:59:57.147] セッションソート順は[Binary]です。
+MAPPING> TM_6185 [2025-06-16 15:59:57.147] 警告。このセッションでは、コードページ検査機能が無効になっています。
+MAPPING> CMN_65109 [2025-06-16 15:59:57.147] 現在のタイムゾーン:[UTC +9:0]
+MAPPING> CMN_65111 [2025-06-16 15:59:57.147] 現在のプロセスID:[26136]
+MAPPING> TM_6155 [2025-06-16 15:59:57.147] 高精度処理を使用しています。
+MAPPING> TM_6180 [2025-06-16 15:59:57.147] デッドロック用再実行ロジックが実装されません。
+MAPPING> TM_6181 [2025-06-16 15:59:57.147] セッションのソースベースコミット間隔は[2147483647]です。
+MAPPING> VAR_27084 [2025-06-16 15:59:57.147] 警告: 変数またはパラメータ[$PMSessionName_error]の値を[$PMSessionName_error]の展開中に見つけることができません。一致する最も長い変数またはパラメータの値[$PMSessionName]を使用しています。
+MAPPING> TM_6308 [2025-06-16 15:59:57.147] DTMエラーログはUTF-8コードページを使用しています｡
+MAPPING> TM_6310 [2025-06-16 15:59:57.147] DTMエラーログはファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\error\s_mtt_010PIX0Z0000000000UL_error]で有効になっています｡
+MAPPING> TM_6682 [2025-06-16 15:59:57.147] 警告: DTMエラーログが有効なので、行レベルのエラーはセッションログには書き込みません｡行レベルのエラーのDTMエラーログを確認ください。
+MAPPING> CCM_9007 [2025-06-16 15:59:57.149] The DTM Error Log File Delimiter being used is [,].
+MAPPING> TM_6701 [2025-06-16 15:59:57.149] 警告: DTMエラーログのデータ列の区切り文字とフラットファイルの区切り文字が同じ[',']です｡
+MAPPING> TE_7022 [2025-06-16 15:59:57.188] TShmWriter: 初期化済み
+MAPPING> DBG_21491 [2025-06-16 15:59:57.190] ソース修飾子 [mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21492 [2025-06-16 15:59:57.191] トランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21694 [2025-06-16 15:59:57.191] mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合パーティション[0]: インデックスキャッシュサイズ= [89478485]、データキャッシュサイズ= [178956970]
+MAPPING> TT_11098 [2025-06-16 15:59:57.191] ジョイナトランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]は、結合アルゴリズムで次のように設定されています: Nested-Loop。
+MAPPING> DBG_21491 [2025-06-16 15:59:57.200] ソース修飾子 [SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21492 [2025-06-16 15:59:57.204] トランスフォーメーション[agg_送信対象データ件数]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21694 [2025-06-16 15:59:57.206] agg_送信対象データ件数パーティション[0]: インデックスキャッシュサイズ= [1000000]、データキャッシュサイズ= [2000000]
+MAPPING> TE_7212 [2025-06-16 15:59:57.206] [インデックスキャッシュ]サイズ(トランスフォーメーション[agg_送信対象データ件数])を[1000000]から[1049760]に増やします。
+MAPPING> TE_7212 [2025-06-16 15:59:57.206] [データキャッシュ]サイズ(トランスフォーメーション[agg_送信対象データ件数])を[2000000]から[2097368]に増やします。
+MAPPING> TE_7029 [2025-06-16 15:59:57.206] 集計情報: 新しいインデックスファイルとデータファイルを作成しています
+MAPPING> TE_7034 [2025-06-16 15:59:57.207] 集計情報: インデックスファイルは[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMAGG578229505_11_0_26136.idx]です
+MAPPING> TE_7035 [2025-06-16 15:59:57.207] 集計情報: データファイルは[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMAGG578229505_11_0_26136.dat]です
+MAPPING> DBG_21492 [2025-06-16 15:59:57.210] トランスフォーメーション[jnr_件数データ結合]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21492 [2025-06-16 15:59:57.212] トランスフォーメーション[jnr_件数データ結合]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21492 [2025-06-16 15:59:57.220] トランスフォーメーション[jnr_件数データ結合]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21694 [2025-06-16 15:59:57.221] jnr_件数データ結合パーティション[0]: インデックスキャッシュサイズ= [89478485]、データキャッシュサイズ= [178956970]
+MAPPING> TT_11098 [2025-06-16 15:59:57.221] ジョイナトランスフォーメーション[jnr_件数データ結合]は、結合アルゴリズムで次のように設定されています: Sorted-Merge。
+MAPPING> DBG_21077 [2025-06-16 15:59:57.222] マスタ関係にJoinerキャッシュを作成 : (Mon Jun 16 15:59:57 2025)
+MAPPING> CMN_1690 [2025-06-16 15:59:57.244] 新しいデータファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNR578229505_14_0_26136.dat]とインデックスファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNR578229505_14_0_26136.idx]をジョイナ [jnr_件数データ結合]用に作成しました。
+MAPPING> DBG_21691 [2025-06-16 15:59:57.244] 明細関係にジョイナキャッシュを作成 : (Mon Jun 16 15:59:57 2025)
+MAPPING> CMN_1690 [2025-06-16 15:59:57.269] 新しいデータファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNRD578229505_14_0_26136.dat]とインデックスファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNRD578229505_14_0_26136.idx]をジョイナ [jnr_件数データ結合]用に作成しました。
+MAPPING> DBG_21492 [2025-06-16 15:59:57.282] トランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]からの行に基づくソースベースコミットの間隔
+MAPPING> DBG_21244 [2025-06-16 15:59:57.287] ロード順グループ[1]を初期化しています。ソース修飾子は[mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK]です
+MAPPING> DBG_21244 [2025-06-16 15:59:57.287] ロード順グループ[1]を初期化しています。ソース修飾子は[SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU]です
+MAPPING> PMJVM_42020 [2025-06-16 15:59:57.298] [INFO] 次のライブラリをロードしました: C:\PROGRA~1\INFORM~1\apps\AGENTC~1\.\..\jdk\zulu8.82.0.22-sa-fx-jdk8.0.432\jre\bin\server\jvm.dll。
+MAPPING> PMJVM_42009 [2025-06-16 15:59:57.360] [INFO] Java VM の作成が成功しました。
+MAPPING> TM_6007 [2025-06-16 15:59:57.505] DTMはセッション[s_mtt_010PIX0Z0000000000UL]に対して正常に初期化されました
+DIRECTOR> PETL_24033 [2025-06-16 15:59:57.505] すべてのDTM接続情報: [<NONE>]。
+MANAGER> PETL_24004 [2025-06-16 15:59:57.505] プリセッションタスクの開始｡ : (Mon Jun 16 15:59:57 2025)
+PRE-SESS> PETL_24091 [2025-06-16 15:59:57.507] スレッド[PRE-SESS]のIDは[4]です。
+MANAGER> PETL_24027 [2025-06-16 15:59:57.573] セッション実行前のタスクは正常に終了しました。 : (Mon Jun 16 15:59:57 2025)
+DIRECTOR> PETL_24006 [2025-06-16 15:59:57.573] データ移動の開始｡
+MAPPING> TM_6660 [2025-06-16 15:59:57.573] バッファプールサイズの総計は101545840バイト、ブロックサイズは2254352バイトです。
+READER_1_1_1> PETL_24091 [2025-06-16 15:59:57.577] スレッド[READER_1_1_1]のIDは[5]です。
+READER_1_1_1> DBG_21438 [2025-06-16 15:59:57.579] リーダー: ソースは[odbc://dbtype=Oracle;host=192.168.10.34;port=1521;database=j2sde034.adev.local]、タイプ[ODBC]、ユーザー[DEV3ITUSER]
+READER_1_1_1> BLKR_16051 [2025-06-16 15:59:57.581] ソースデータベース接続[Conn_010PIX0B000000000010]コードページ: [MS Windows Japanese, superset of Shift-JIS]
+READER_1_1_1> CMN_1021 [2025-06-16 15:59:57.656] データベースドライバイベント...
+CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\73.0.3.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
+ドライバ名を決定するDTMフラグが見つからないため、[DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE]ドライバをデフォルトとします。
+ODBCイベント: 配列FETCHの使用。
+ODBCイベント: 1行INSERTの使用。接続文字列= [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=192.168.10.34;ServiceName=j2sde034.adev.local;Port=1521;UID=DEV3ITUSER;AS=6000000;EBL=0;ENS=1;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]。ユーザーID = [DEV3ITUSER]
+ODBCバージョン:	03.80.0000
+.
+DBMS名:	Oracle
+.
+DBMSバージョン:	12.02.0000 Oracle 12.2.0.1.0
+.
+ドライバ名:	dwora28.dll
+.
+ドライババージョン:	08.02.3072 (B1917, U1723)
+.
+ドライバODBCバージョン:	03.52
+.]
+
+READER_1_1_1> BLKR_16003 [2025-06-16 15:59:57.656] 初期化が正常に完了しました｡
+TRANSF_1_1_1> PETL_24091 [2025-06-16 15:59:57.659] スレッド[TRANSF_1_1_1]のIDは[6]です。
+READER_1_2_1> PETL_24091 [2025-06-16 15:59:57.661] スレッド[READER_1_2_1]のIDは[7]です。
+READER_1_2_1> DBG_21437 [2025-06-16 15:59:57.662] リーダー: ソースはファイルベースのソースです｡
+READER_1_2_1> FR_3118 [2025-06-16 15:59:57.664] ソース[SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU]コードページ: [MS Windows Japanese, superset of Shift-JIS]
+READER_1_2_1> FR_3071 [2025-06-16 15:59:57.667] 最大行順序ありバッファ長は4423です。
+READER_1_2_1> BLKR_16003 [2025-06-16 15:59:57.668] 初期化が正常に完了しました｡
+TRANSF_1_2_1> PETL_24091 [2025-06-16 15:59:57.669] スレッド[TRANSF_1_2_1]のIDは[8]です。
+TRANSF_1_3_1> PETL_24091 [2025-06-16 15:59:57.671] スレッド[TRANSF_1_3_1]のIDは[9]です。
+WRITER_1_*_1> PETL_24091 [2025-06-16 15:59:57.737] スレッド[WRITER_1_*_1]のIDは[10]です。
+WRITER_1_*_1> WRT_8124 [2025-06-16 15:59:57.739] ターゲットテーブルNSBA1301 :出力を書き込み中｡書き込み先:d:\DEV\temp\NSBA1301
+WRITER_1_*_1> WRT_8222 [2025-06-16 15:59:57.739] ターゲットファイル[d:\DEV\temp\NSBA1301]コードページ: [MS Windows Japanese, superset of Shift-JIS]
+WRITER_1_*_1> WRT_8147 [2025-06-16 15:59:57.742] ライター: ターゲットはデータベース[odbc://dbtype=Oracle;host=192.168.10.34;port=1521;database=j2sde034.adev.local]、タイプ[ODBC]、ユーザー[DEV3ITUSER]、一括モード[OFF]
+WRITER_1_*_1> CMN_1021 [2025-06-16 15:59:57.810] データベースドライバイベント...
+CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\73.0.3.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
+ドライバ名を決定するDTMフラグが見つからないため、[DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE]ドライバをデフォルトとします。
+ODBCイベント: 配列FETCHの使用。
+ODBCイベント: 1行INSERTの使用。接続文字列= [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=192.168.10.34;ServiceName=j2sde034.adev.local;Port=1521;UID=DEV3ITUSER;AS=6000000;EBL=0;ENS=1;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]。ユーザーID = [DEV3ITUSER]
+ODBCバージョン:	03.80.0000
+.
+DBMS名:	Oracle
+.
+DBMSバージョン:	12.02.0000 Oracle 12.2.0.1.0
+.
+ドライバ名:	dwora28.dll
+.
+ドライババージョン:	08.02.3072 (B1917, U1723)
+.
+ドライバODBCバージョン:	03.52
+.]
+
+WRITER_1_*_1> WRT_8221 [2025-06-16 15:59:57.810] ターゲットデータベース接続[Conn_010PIX0B000000000010]コードページ: [MS Windows Japanese, superset of Shift-JIS]
+WRITER_1_*_1> WRT_8124 [2025-06-16 15:59:57.810] ターゲットテーブルJ_EDI_SND_DB_SEIKYU_CHK :SQL INSERT文:
+INSERT INTO DEV3ITUSER.J_EDI_SND_DB_SEIKYU_CHK(SND_SEQ_NO,EDI_SND_JOKYO_SBT,FUNC_UKETSUKE_NO,NEW_UPDATE_DT,NEW_UPDATE_USR,NEW_UPDATE_FUNC,UPDATE_CNT)  VALUES ( ?, ?, ?, ?, ?, ?, ?) 
+WRITER_1_*_1> WRT_8124 [2025-06-16 15:59:57.810] ターゲットテーブルJ_EDI_SND_DB_SEIKYU_CHK :SQL UPDATE文:
+UPDATE DEV3ITUSER.J_EDI_SND_DB_SEIKYU_CHK SET EDI_SND_JOKYO_SBT = ?, FUNC_UKETSUKE_NO = ?, NEW_UPDATE_DT = ?, NEW_UPDATE_USR = ?, NEW_UPDATE_FUNC = ?, UPDATE_CNT = ? WHERE SND_SEQ_NO = ?
+WRITER_1_*_1> WRT_8124 [2025-06-16 15:59:57.810] ターゲットテーブルJ_EDI_SND_DB_SEIKYU_CHK :SQL DELETE文:
+DELETE FROM DEV3ITUSER.J_EDI_SND_DB_SEIKYU_CHK WHERE SND_SEQ_NO = ?
+WRITER_1_*_1> WRT_8147 [2025-06-16 15:59:57.812] ライター: ターゲットはデータベース[odbc://dbtype=Oracle;host=192.168.10.34;port=1521;database=j2sde034.adev.local]、タイプ[ODBC]、ユーザー[DEV3ITUSER]、一括モード[OFF]
+WRITER_1_*_1> WRT_8124 [2025-06-16 15:59:57.812] ターゲットテーブルJ_EDI_RCV_DB_SUP :SQL INSERT文:
+INSERT INTO DEV3ITUSER.J_EDI_RCV_DB_SUP(RCV_SEQ_NO,SEIKYU_CHK_CREATE_SBT,NEW_UPDATE_DT,NEW_UPDATE_USR,NEW_UPDATE_FUNC,UPDATE_CNT)  VALUES ( ?, ?, ?, ?, ?, ?) 
+WRITER_1_*_1> WRT_8124 [2025-06-16 15:59:57.812] ターゲットテーブルJ_EDI_RCV_DB_SUP :SQL UPDATE文:
+UPDATE DEV3ITUSER.J_EDI_RCV_DB_SUP SET SEIKYU_CHK_CREATE_SBT = ?, NEW_UPDATE_DT = ?, NEW_UPDATE_USR = ?, NEW_UPDATE_FUNC = ?, UPDATE_CNT = ? WHERE RCV_SEQ_NO = ?
+WRITER_1_*_1> WRT_8124 [2025-06-16 15:59:57.812] ターゲットテーブルJ_EDI_RCV_DB_SUP :SQL DELETE文:
+DELETE FROM DEV3ITUSER.J_EDI_RCV_DB_SUP WHERE RCV_SEQ_NO = ?
+WRITER_1_*_1> WRT_8270 [2025-06-16 15:59:57.812] ターゲット接続グループ番号1はターゲット[NSBA1301]で構成されています。
+WRITER_1_*_1> WRT_8324 [2025-06-16 15:59:57.812] 警告: ターゲット接続グループの接続がトランザクションをサポートしていません。ターゲット[NSBA1301]は指定したトランザクション境界に従ってロードされない可能性があります。
+WRITER_1_*_1> WRT_8270 [2025-06-16 15:59:57.812] ターゲット接続グループ番号2はターゲット[J_EDI_SND_DB_SEIKYU_CHK, J_EDI_RCV_DB_SUP]で構成されています。
+WRITER_1_*_1> WRT_8003 [2025-06-16 15:59:57.812] ライターの初期化が完了しました｡
+READER_1_1_1> BLKR_16007 [2025-06-16 15:59:57.813] リーダーの実行を開始しました｡
+READER_1_2_1> BLKR_16007 [2025-06-16 15:59:57.813] リーダーの実行を開始しました｡
+WRITER_1_*_1> WRT_8005 [2025-06-16 15:59:57.813] ライターの実行を開始しました｡
+WRITER_1_*_1> WRT_8158 [2025-06-16 15:59:57.813] 
+
+*****ロードセッションの開始*****
+
+ロード開始時刻: Mon Jun 16 15:59:57 2025
+
+ロード開始時刻:
+
+     NSBA1301
+     J_EDI_SND_DB_SEIKYU_CHK
+     J_EDI_RCV_DB_SUP
+
+
+READER_1_1_1> RR_4029 [2025-06-16 15:59:57.813] SQインスタンス[mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK]ユーザー指定SQLクエリ[SELECT * FROM J_EDI_SND_DB_SEIKYU_CHK SEI 
+INNER JOIN J_EDI_SND_DB_SEIKYU_CHK SIR ON SEI.RCV_SEQ_NO = SIR.RCV_SEQ_NO WHERE SEI.DATA_KOKAN_ID = '001440' AND SEI.EDI_KINO_CATEGORY_CD = 'A130' AND SEI.EDI_SND_JOKYO_SBT = '1' AND SEI.DEL_KBN = '0' AND SEI.SND_DATA_DEL_KBN = '0' FOR UPDATE WAIT 60]
+READER_1_1_1> RR_4049 [2025-06-16 15:59:57.813] SQLクエリがデータベースに発行されました : (Mon Jun 16 15:59:57 2025)
+READER_1_2_1> DBG_21430 [2025-06-16 15:59:57.814] 入力ソースファイル[d:\DEV\temp\NSBA130S02001]からデータを読み込んでいます : (Mon Jun 16 15:59:57 2025)
+READER_1_2_1> BLKR_16019 [2025-06-16 15:59:57.814] レコードを[0]行、エラーレコードを[0]行、読み込みました: ソーステーブル[NSBA130S02001]インスタンス名[NSBA130S02001]
+READER_1_2_1> BLKR_16008 [2025-06-16 15:59:57.814] リーダーの実行が完了しました｡
+TRANSF_1_2_1> TE_7032 [2025-06-16 15:59:57.815] 以下のファイルで管理されているB-Tree
+C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMAGG578229505_11_0_26136.dat (データ用)
+
+C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMAGG578229505_11_0_26136.idx (インデックス用):
+	インデックスサイズ:	1
+	行サイズ:	16
+	順序:		100
+	最小順序:	50
+	高さ:		0
+	エントリ:	0
+	インデックスページサイズ:	1296
+	インデックスページ:	810
+	データページサイズ:	536
+	データページ:	3913
+
+TRANSF_1_2_1> DBG_21216 [2025-06-16 15:59:57.815] ソース修飾子 [SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU]のトランスフォーメーションを終了しました。エラー総数[0]
+READER_1_1_1> BLKR_16019 [2025-06-16 15:59:57.822] レコードを[0]行、エラーレコードを[0]行、読み込みました: ソーステーブル[DUMMY_mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK]インスタンス名[DUMMY_mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK]
+TRANSF_1_1_1> DBG_21077 [2025-06-16 15:59:57.822] マスタ関係にJoinerキャッシュを作成 : (Mon Jun 16 15:59:57 2025)
+READER_1_1_1> BLKR_16008 [2025-06-16 15:59:57.823] リーダーの実行が完了しました｡
+TRANSF_1_1_1> TE_7212 [2025-06-16 15:59:57.826] [インデックスキャッシュ]サイズ(トランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合])を[89478485]から[89481600]に増やします。
+TRANSF_1_1_1> TE_7212 [2025-06-16 15:59:57.826] [データキャッシュ]サイズ(トランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合])を[178956970]から[178957152]に増やします。
+TRANSF_1_1_1> CMN_1690 [2025-06-16 15:59:57.856] 新しいデータファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNR578229505_27_0_26136.dat]とインデックスファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNR578229505_27_0_26136.idx]をジョイナ [mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]用に作成しました。
+TRANSF_1_1_1> DBG_21214 [2025-06-16 15:59:57.856] マスタ関係に対するJoinerキャッシュを完了しました : (Mon Jun 16 15:59:57 2025)
+TRANSF_1_1_1> DBG_21216 [2025-06-16 15:59:57.856] ソース修飾子 [mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK]のトランスフォーメーションを終了しました。エラー総数[0]
+TRANSF_1_3_1> DBG_21273 [2025-06-16 15:59:57.856] ジョイナトランスフォーメーション: mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合
+
+TRANSF_1_3_1> CMN_1103 [2025-06-16 15:59:57.856] 警告: マスタに行が見つかりません｡ジョイナは、出力行を作成しません。
+TRANSF_1_3_1> DBG_21603 [2025-06-16 15:59:57.856] 明細Joinerに対してマスタ関係キャシュをオープンします : (Mon Jun 16 15:59:57 2025)
+WRITER_1_*_1> WRT_8167 [2025-06-16 15:59:57.856] テーブル[J_EDI_SND_DB_SEIKYU_CHK]のロードを開始: Mon Jun 16 15:59:57 2025
+WRITER_1_*_1> WRT_8168 [2025-06-16 15:59:57.856] テーブル[J_EDI_SND_DB_SEIKYU_CHK]のロードを終了: Mon Jun 16 15:59:57 2025
+TRANSF_1_3_1> DBG_21215 [2025-06-16 15:59:57.857] 明細関係の処理を完了しました : (Mon Jun 16 15:59:57 2025)
+WRITER_1_*_1> WRT_8167 [2025-06-16 15:59:57.857] テーブル[J_EDI_RCV_DB_SUP]のロードを開始: Mon Jun 16 15:59:57 2025
+TRANSF_1_3_1> CMN_1795 [2025-06-16 15:59:57.857] メモリ内で[0]入力行([mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]のマスタ)を保持するインデックスキャッシュサイズは[0]バイトです
+WRITER_1_*_1> WRT_8168 [2025-06-16 15:59:57.857] テーブル[J_EDI_RCV_DB_SUP]のロードを終了: Mon Jun 16 15:59:57 2025
+TRANSF_1_3_1> CMN_1794 [2025-06-16 15:59:57.857] メモリ内で[0]入力行([mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]のマスタ)を保持するデータキャッシュサイズは[528]バイトです
+TRANSF_1_3_1> DBG_21215 [2025-06-16 15:59:57.881] 明細関係の処理を完了しました : (Mon Jun 16 15:59:57 2025)
+WRITER_1_*_1> WRT_8167 [2025-06-16 15:59:57.881] テーブル[NSBA1301]のロードを開始: Mon Jun 16 15:59:57 2025
+TRANSF_1_3_1> DBG_21216 [2025-06-16 15:59:57.887] ソース修飾子 [jnr_件数データ結合]のトランスフォーメーションを終了しました。エラー総数[0]
+WRITER_1_*_1> WRT_8168 [2025-06-16 15:59:57.893] テーブル[NSBA1301]のロードを終了: Mon Jun 16 15:59:57 2025
+WRITER_1_*_1> WRT_8035 [2025-06-16 15:59:57.894] ロード完了時刻: Mon Jun 16 15:59:57 2025
+
+ロード要約
+============
+
+WRT_8036 ターゲット: NSBA1301 (インスタンス名: [NSBA1301])
+WRT_8044 このターゲットに対してデータがロードされていません
+
+
+WRT_8036 ターゲット: J_EDI_SND_DB_SEIKYU_CHK (インスタンス名: [J_EDI_SND_DB_SEIKYU_CHK])
+WRT_8044 このターゲットに対してデータがロードされていません
+
+
+WRT_8036 ターゲット: J_EDI_RCV_DB_SUP (インスタンス名: [J_EDI_RCV_DB_SUP])
+WRT_8044 このターゲットに対してデータがロードされていません
+
+
+
+WRITER_1_*_1> WRT_8043 [2025-06-16 15:59:57.894] *****ロードセッションの終わり*****
+WRITER_1_*_1> WRT_8006 [2025-06-16 15:59:57.898] ライターの実行が完了しました｡
+MANAGER> PETL_24031 [2025-06-16 15:59:57.899] 
+***** TGT LOAD ORDER GROUP [1], CONCURRENT SET [1]の実行情報*****
+スレッド[READER_1_1_1]は[読み込みステージ] (パーティションポイント[mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK])用に作成されたスレッドです。このスレッドが完了しました。合計実行時間は統計上意味を持つほど長くありませんでした。
+スレッド[TRANSF_1_1_1]は[トランスフォーメーションステージ] (パーティションポイント[mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK])用に作成されたスレッドです。このスレッドが完了しました。合計実行時間は統計上意味を持つほど長くありませんでした。
+スレッド[READER_1_2_1]は[読み込みステージ] (パーティションポイント[SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU])用に作成されたスレッドです。このスレッドが完了しました。合計実行時間は統計上意味を持つほど長くありませんでした。
+スレッド[TRANSF_1_2_1]は[トランスフォーメーションステージ] (パーティションポイント[SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU])用に作成されたスレッドです。このスレッドが完了しました。合計実行時間は統計上意味を持つほど長くありませんでした。
+スレッド[TRANSF_1_3_1]は[トランスフォーメーションステージ] (パーティションポイント[jnr_件数データ結合])用に作成されたスレッドです。このスレッドが完了しました。合計実行時間は統計上意味を持つほど長くありませんでした。
+スレッド[WRITER_1_*_1]は[書き込みステージ] (パーティションポイント[NSBA1301, J_EDI_SND_DB_SEIKYU_CHK, J_EDI_RCV_DB_SUP])用に作成されたスレッドです。このスレッドが完了しました。合計実行時間は統計上意味を持つほど長くありませんでした。
+
+MAPPING> CMN_1791 [2025-06-16 15:59:58.086] メモリ内で[0]集計グループ([agg_送信対象データ件数]の入力行)を保持するインデックスキャッシュサイズは[0]バイトです
+MAPPING> CMN_1790 [2025-06-16 15:59:58.086] メモリ内で[0]集計グループ([agg_送信対象データ件数]の入力行)を保持するデータキャッシュサイズは[0]バイトです
+MANAGER> PETL_24005 [2025-06-16 15:59:58.087] ポストセッションタスクの開始｡ : (Mon Jun 16 15:59:58 2025)
+POST-SESS> PETL_24091 [2025-06-16 15:59:58.089] スレッド[POST-SESS]のIDは[11]です。
+MANAGER> PETL_24029 [2025-06-16 15:59:58.152] セッション実行後のタスクは正常に終了しました。 : (Mon Jun 16 15:59:58 2025)
+MAPPING> TM_6315 [2025-06-16 15:59:58.152] DTMエラーログ: ファイルログ[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\error\s_mtt_010PIX0Z0000000000UL_error]、行挿入[0]｡
+MAPPING> TM_6018 [2025-06-16 15:59:58.153] セッションが[0]の行トランスフォーメーションエラーで完了しました。
+MANAGER> TE_7216 [2025-06-16 15:59:58.217] キャッシュファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMAGG578229505_11_0_26136.idx] (トランスフォーメーション[agg_送信対象データ件数]用)を削除しています。
+MANAGER> TE_7216 [2025-06-16 15:59:58.217] キャッシュファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMAGG578229505_11_0_26136.dat] (トランスフォーメーション[agg_送信対象データ件数]用)を削除しています。
+MANAGER> TE_7216 [2025-06-16 15:59:58.222] キャッシュファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNR578229505_27_0_26136.dat] (トランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]用)を削除しています。
+MANAGER> TE_7216 [2025-06-16 15:59:58.222] キャッシュファイル[C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\cache\PMJNR578229505_27_0_26136.idx] (トランスフォーメーション[mplt_CMN_EDI送信DB_請求確認更新２_jnr_データ更新項目結合]用)を削除しています。
+MANAGER> PETL_24002 [2025-06-16 15:59:59.215] Parallel Pipeline Engine 終了｡
+DIRECTOR> PETL_24012 [2025-06-16 15:59:59.277] セッションの実行が成功しました｡
+DIRECTOR> VAR_27048 [2025-06-16 15:59:59.277] リポジトリに対するマッピング変数値のpersisting｡
+DIRECTOR> VAR_27049 [2025-06-16 15:59:59.277] マッピング変数名: [$$m_DATA_KOKAN_ID]、パーシステント値: [001440]、実行インスタンス名[]。
+DIRECTOR> TM_6022 [2025-06-16 15:59:59.277] 
+
+セッションロード要約
+================================================
+
+DIRECTOR> TM_6252 [2025-06-16 15:59:59.277] ソースのロード要約
+DIRECTOR> CMN_1740 [2025-06-16 15:59:59.277] テーブル: [mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK] (インスタンス名: [mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK]、インスタンスUI名: [mplt_CMN_EDI送信DB_請求確認更新２_SQ_J_EDI_SND_DB_SEIKYU_CHK])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> CMN_1740 [2025-06-16 15:59:59.277] テーブル: [SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU] (インスタンス名: [SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU]、インスタンスUI名: [SQ_f_T_SEIKYU_KAKUNIN_DATA_HENSHU])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> TM_6253 [2025-06-16 15:59:59.277] ターゲットのロード要約
+DIRECTOR> CMN_1740 [2025-06-16 15:59:59.277] テーブル: [NSBA1301] (インスタンス名: [NSBA1301]、インスタンスUI名: [f_J_EDI_SND_SK_KAKUNIN])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> CMN_1740 [2025-06-16 15:59:59.277] テーブル: [J_EDI_SND_DB_SEIKYU_CHK] (インスタンス名: [J_EDI_SND_DB_SEIKYU_CHK]、インスタンスUI名: [mplt_CMN_EDI送信DB_請求確認更新２_J_EDI_SND_DB_SEIKYU_CHK])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> CMN_1740 [2025-06-16 15:59:59.277] テーブル: [J_EDI_RCV_DB_SUP] (インスタンス名: [J_EDI_RCV_DB_SUP]、インスタンスUI名: [mplt_CMN_EDI送信DB_請求確認更新２_J_EDI_RCV_DB_SUP])
+	出力行数[0]、影響のあった行数[0]、適用された行数[0]、拒否された行数[0]
+DIRECTOR> TM_6023 [2025-06-16 15:59:59.277] 
+===================================================
+
+DIRECTOR> TM_6020 [2025-06-16 15:59:59.277] セッション[s_mtt_010PIX0Z0000000000UL]が[Mon Jun 16 15:59:59 2025]で完了しました。

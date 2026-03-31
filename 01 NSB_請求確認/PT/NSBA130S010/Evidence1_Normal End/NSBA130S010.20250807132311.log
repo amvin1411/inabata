@@ -1,0 +1,149 @@
+2025/08/07 13:23:11.09 ジョブID: NSBA130S010 の実行開始 
+2025/08/07 13:23:11.09 STEP010 開始 
+2025/08/07 13:23:11.09 STEP010 終了 
+2025/08/07 13:23:11.09 STEP020 開始 
+2025/08/07 13:23:11.12 STEP020 終了 
+2025/08/07 13:23:11.12 STEP030 実行開始 
+620  [main] INFO  com.informatica.saas.utilities.plugins.EncryptTextPlugin  - Keystore : key-store.txt
+821  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Welcome to Informatica CLI tool
+825  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Based on your configuration CLI tool will assume you are working in Florence(IICS) mode
+https://dm1-ap.informaticacloud.com/ma/api/v3/InternalLogin
+6403 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - SaaS URL was not set. Using SaaS URL: https://apne1.dm1-ap.informaticacloud.com/saas
+6409 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged IN, IDS-SESSION-ID=bdTNuxkitsgdNIgBq5x6sv
+6412 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged in at Thu Aug 07 13:23:17 JST 2025
+6414 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:23:17 JST 2025 Running the task: wf_NSB_A130_010
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/tf/wf_NSB_A130_010
+7186 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Submitted run of the task: taskUrl=wf_NSB_A130_010, taskRunId=1137964158841487360
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964158841487360
+7243 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:23:18 JST 2025 Task wf_NSB_A130_010 with run Id 1137964158841487360 found in activity log
+7243 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964158841487360
+22345 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:23:33 JST 2025 Task wf_NSB_A130_010 with run Id 1137964158841487360 found in activity log
+22346 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Success
+22346 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Details: ID: runId: 1137964158841487360 Start Time: 2025-08-07T04:23:18Z End Time: 2025-08-07T04:23:27Z Subtask Count: 1
+22346 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Thu Aug 07 13:23:33 JST 2025 Task null with run Id 1137964158841487360 exited from activity monitor
+https://dm1-ap.informaticacloud.com/ma/api/v3/Logout
+22471 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged OUT, IDS-SESSION-ID=bdTNuxkitsgdNIgBq5x6sv
+22471 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged out at Thu Aug 07 13:23:33 JST 2025
+22471 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Main returning: 0
+2025/08/07 13:23:33.71 STEP030 実行終了 
+2025/08/07 13:23:33.71 STEP040 実行開始 
+2025/08/07 13:23:33.72 STEP040 実行終了 
+2025/08/07 13:23:33.72 STEP050 実行開始 
+549  [main] INFO  com.informatica.saas.utilities.plugins.EncryptTextPlugin  - Keystore : key-store.txt
+686  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Welcome to Informatica CLI tool
+689  [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Based on your configuration CLI tool will assume you are working in Florence(IICS) mode
+https://dm1-ap.informaticacloud.com/ma/api/v3/InternalLogin
+6234 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - SaaS URL was not set. Using SaaS URL: https://apne1.dm1-ap.informaticacloud.com/saas
+6234 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged IN, IDS-SESSION-ID=iaZaT5GgQMsdVeB4FfY7qK
+6237 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged in at Thu Aug 07 13:23:40 JST 2025
+6239 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:23:40 JST 2025 Running the task: wf_NSB_A130_020
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/tf/wf_NSB_A130_020
+7007 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Submitted run of the task: taskUrl=wf_NSB_A130_020, taskRunId=1137964252907147264
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+7061 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:23:40 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+7061 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+22150 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:23:55 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+22151 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+37246 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:24:11 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+37246 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+52319 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:24:26 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+52319 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+67397 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:24:41 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+67397 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+82490 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:24:56 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+82490 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+97669 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:25:11 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+97670 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+112736 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:25:26 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+112736 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+127847 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:25:41 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+127848 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+142924 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:25:56 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+142925 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+158016 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:26:11 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+158502 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+173646 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:26:27 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+174390 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+189483 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:26:43 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+190085 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+205176 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:26:58 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+208778 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+223891 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:27:17 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+223891 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+239025 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:27:32 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+239384 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+254491 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:27:48 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+254779 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+269855 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:28:03 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+270242 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+285320 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:28:19 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+287306 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+302375 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:28:36 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+302376 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+317469 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:28:51 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+317469 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+332551 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:29:06 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+332551 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+347675 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:29:21 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+348034 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+363185 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:29:36 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+363467 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+378573 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:29:52 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+378574 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+393664 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:30:07 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+393664 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+408763 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:30:22 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+408994 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+424067 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:30:37 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+424067 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+439166 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:30:52 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+439166 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+454255 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:31:08 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+454650 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+469738 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:31:23 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+470222 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+485371 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:31:39 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+485446 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1137964252907147264
+500539 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Thu Aug 07 13:31:54 JST 2025 Task wf_NSB_A130_020 with run Id 1137964252907147264 found in activity log
+500539 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Success
+500539 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Details: ID: runId: 1137964252907147264 Start Time: 2025-08-07T04:23:41Z End Time: 2025-08-07T04:31:54Z Subtask Count: 1
+500540 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Thu Aug 07 13:31:54 JST 2025 Task null with run Id 1137964252907147264 exited from activity monitor
+https://dm1-ap.informaticacloud.com/ma/api/v3/Logout
+500703 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged OUT, IDS-SESSION-ID=iaZaT5GgQMsdVeB4FfY7qK
+500703 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged out at Thu Aug 07 13:31:54 JST 2025
+500703 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Main returning: 0
+2025/08/07 13:31:54.83 STEP050 実行終了 
+2025/08/07 13:31:54.83 ジョブID: NSBA130S010 正常終了 
