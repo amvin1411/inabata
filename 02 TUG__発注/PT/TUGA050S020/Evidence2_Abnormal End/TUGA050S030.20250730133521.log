@@ -1,0 +1,39 @@
+2025/07/30 13:35:21.30 ジョブID: TUGA050S030 の実行開始 
+2025/07/30 13:35:21.32 STEP010 開始 
+2025/07/30 13:35:21.32 STEP010 実行終了 
+2025/07/30 13:35:21.32 STEP020 実行開始 
+2025/07/30 13:35:21.34 STEP020 終了 
+2025/07/30 13:35:21.34 STEP030 実行開始 
+985  [main] INFO  com.informatica.saas.utilities.plugins.EncryptTextPlugin  - Keystore : key-store.txt
+1333 [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Welcome to Informatica CLI tool
+1338 [main] INFO  com.informatica.saas.plugins.RestClientPlugin  - Based on your configuration CLI tool will assume you are working in Florence(IICS) mode
+https://dm1-ap.informaticacloud.com/ma/api/v3/InternalLogin
+7265 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - SaaS URL was not set. Using SaaS URL: https://apne1.dm1-ap.informaticacloud.com/saas
+7270 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged IN, IDS-SESSION-ID=5ZLS8cO3jofiYd9LG8eaIz
+7276 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged in at Wed Jul 30 13:35:28 JST 2025
+7278 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Wed Jul 30 13:35:28 JST 2025 Running the task: wf_TUG_A050_130
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/tf/wf_TUG_A050_130
+7539 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Submitted run of the task: taskUrl=wf_TUG_A050_130, taskRunId=1135068122275864576
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1135068122275864576
+7615 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Wed Jul 30 13:35:29 JST 2025 Task wf_TUG_A050_130 with run Id 1135068122275864576 found in activity log
+7617 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1135068122275864576
+22720 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Wed Jul 30 13:35:44 JST 2025 Task wf_TUG_A050_130 with run Id 1135068122275864576 found in activity log
+22721 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1135068122275864576
+37850 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Wed Jul 30 13:35:59 JST 2025 Task wf_TUG_A050_130 with run Id 1135068122275864576 found in activity log
+37851 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1135068122275864576
+52947 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Wed Jul 30 13:36:14 JST 2025 Task wf_TUG_A050_130 with run Id 1135068122275864576 found in activity log
+52947 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Running
+https://apne1.dm1-ap.informaticacloud.com/active-bpel/services/tf/status/1135068122275864576
+68034 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Wed Jul 30 13:36:29 JST 2025 Task wf_TUG_A050_130 with run Id 1135068122275864576 found in activity log
+68035 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Job Status:  Failure
+68035 [main] INFO  com.informatica.saas.utilities.task.ICRTTask  - Details: ID: runId: 1135068122275864576 Start Time: 2025-07-30T04:35:29Z End Time: 2025-07-30T04:36:24Z Subtask Count: 1 Error/Warning Message: {"reason":"FR_3000 ファイル[d:\\DEV_DIKe\\temp\\TUGA050S02001]を開いているときにエラーが発生しました。オペレーティングシステムのエラーメッセージは[指定されたファイルが見つかりません。]です。","code":"error","details":"010PIXC1000000001FPEs_m_TUG_発注_データ編集_010010PIX0Z00000000015D71s_m_TUG_発注_データ編集_010010PIX0Z00000000015D71010PIXC1000000001FPE300002025-07-30T04:35:31.000Z2025-07-30T04:36:19.000ZFR_3000 ファイル[d:\\DEV_DIKe\\temp\\TUGA050S02001]を開いているときにエラーが発生しました。オペレーティングシステムのエラーメッセージは[指定されたファイルが見つかりません。]です。03000"}
+68035 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Wed Jul 30 13:36:29 JST 2025 Task null with run Id 1135068122275864576 exited from activity monitor
+https://dm1-ap.informaticacloud.com/ma/api/v3/Logout
+68165 [main] INFO  com.informatica.saas.delegate.florence.FlorenceUserDelegate  - Logged OUT, IDS-SESSION-ID=5ZLS8cO3jofiYd9LG8eaIz
+68165 [main] INFO  com.informatica.saas.utilities.plugins.UserHandler  - Logged out at Wed Jul 30 13:36:29 JST 2025
+68165 [main] INFO  com.informatica.saas.utilities.plugins.RunAJobPlugin  - Main returning: 3
+2025/07/30 13:36:29.66 STEP030 実行エラー PRC= 3 
+2025/07/30 13:36:29.66 ジョブID: TUGA050S030 の異常終了 

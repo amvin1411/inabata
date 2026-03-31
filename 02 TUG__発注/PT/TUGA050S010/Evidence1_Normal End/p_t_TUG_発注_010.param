@@ -1,0 +1,7 @@
+#USE_SECTIONS
+[Global]
+$PMSessionLogFile=TUGA050S010_sessionlog_20250728200833.log
+$PMSessionName_error=TUGA050S010_sessionErrorLog_20250728200833.log
+$OutputFile_MAP_FILE=TUGA050S01001
+$DBConnectionDIKe=EDI_oracle_DIKe_01
+$$m_DATA_KOKAN_ID=000086

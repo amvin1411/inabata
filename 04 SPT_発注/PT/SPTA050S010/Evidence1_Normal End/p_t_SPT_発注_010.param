@@ -1,0 +1,7 @@
+#USE_SECTIONS
+[Global]
+$PMSessionLogFile=SPTA050S010_sessionlog_20250808223200.log
+$PMSessionName_error=SPTA050S010_sessionErrorLog_20250808223200.log
+$OutputFile_MAP_FILE=SPTA050S01001
+$DBConnectionDIKe=EDI_oracle_DIKe_01
+$$m_DATA_KOKAN_ID=001834
